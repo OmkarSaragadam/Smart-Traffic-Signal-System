@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.vscode/
+.idea/
+*.swp
+
+.DS_Store
+Thumbs.db
+
+# Runtime/generated files
+*.log
+outputs/*
+reports/*
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Large/local assets
+models/*.pt
+models/*.onnx
+videos/*
